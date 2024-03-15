@@ -23,10 +23,10 @@
 
     // Fly the camera to San Francisco at the given longitude, latitude, and height.
     viewer.camera.flyTo({
-      destination: Cesium.Cartesian3.fromDegrees(-21.955,64.132, 600),
+      destination: Cesium.Cartesian3.fromDegrees(-122.4175, 37.655, 400),
       orientation: {
         heading: Cesium.Math.toRadians(0.0),
-        pitch: Cesium.Math.toRadians(-50.0),
+        pitch: Cesium.Math.toRadians(-15.0),
       }
     });
 
@@ -34,7 +34,7 @@
     const buildingTileset = await Cesium.createOsmBuildingsAsync();
     viewer.scene.primitives.add(buildingTileset);   
 
-    // Add a JPG image as an overlay
+    // Melide Gift
     var imageUrl = 'Gift.jpeg'; // Replace 'path_to_your_image.jpg' with the actual path to your image
     var imageOverlay = viewer.entities.add({
         position: Cesium.Cartesian3.fromDegrees(8.9443108,45.9528598, 500), // Position to place the image
@@ -46,14 +46,35 @@
     });
     imageOverlay.description = '<a href="https://t.ly/AlexandraBDay">Click here for more info</a>';
 
-
-        // Add a JPG image as an overlay
-        var imageUrl = 'Hint.png'; // Replace 'path_to_your_image.jpg' with the actual path to your image
-    var imageOverlay = viewer.entities.add({
-        position: Cesium.Cartesian3.fromDegrees(-21.955,64.132, 200), // Position to place the image
+        // Where did marco grow up?
+        var imageUrl1 = 'Hint.png'; // Replace 'path_to_your_image.jpg' with the actual path to your image
+    var imageOverlay1 = viewer.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(-21.956,64.133, 200), // Position to place the image
         billboard: {
-            image: imageUrl,
+            image: imageUrl1,
+            scale: 0.05, // Scale of the image
+            sizeInMeters: true // Set to true if the size of the image is in meters
+        }
+    });
+
+    // Where did we meet?
+    var imageUrl2 = 'Hint2.png'; // Replace 'path_to_your_image.jpg' with the actual path to your image
+    var imageOverlay2 = viewer.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(-122.4175, 37.655, 200), // Position to place the image
+        billboard: {
+            image: imageUrl2,
             scale: 0.5, // Scale of the image
+            sizeInMeters: true // Set to true if the size of the image is in meters
+        }
+    });
+
+        // Where do we live?
+        var imageUrl3 = 'Hint3.png'; // Replace 'path_to_your_image.jpg' with the actual path to your image
+    var imageOverlay3 = viewer.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(-21.2292820,64.0576614, 500), // Position to place the image
+        billboard: {
+            image: imageUrl3,
+            scale: 0.15, // Scale of the image
             sizeInMeters: true // Set to true if the size of the image is in meters
         }
     });
