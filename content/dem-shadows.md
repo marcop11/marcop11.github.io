@@ -1,9 +1,8 @@
-# DEM-Shadows — Visualizing Terrain Shadows & Sunlight
-
-
 <p style="text-align:center;">
   <img src="../img/dem-shadows.png" width="180" style="border-radius:50%;">
 </p>
+
+# DEM-Shadows — Visualizing Terrain Shadows & Sunlight
 
 **Short summary:**  
 DEM-Shadows is a lightweight tool for generating terrain shadow rasters, beautiful shadow animations, and cumulative sunlight maps from any DEM. It’s built to be simple, reproducible, and fun to explore — whether you want to study how light moves across mountains or just enjoy watching terrain breathe with the sun.

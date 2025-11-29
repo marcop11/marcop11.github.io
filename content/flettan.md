@@ -1,7 +1,7 @@
-
 <p style="text-align:center;">
   <img src="../img/flettan.png" width="200">
 </p>
+
 # Fléttan — Predicting Soil Erosion in the Arctic
 
 **Fléttan** is an Icelandic startup developing a next-generation predictive system for **soil erosion risk in Arctic and sub-Arctic regions**.  

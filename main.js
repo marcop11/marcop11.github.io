@@ -125,14 +125,14 @@ const posts = [
     slug: "eruptions",
     title: "#30DayMapChallenge2024 - Eruptions",
     date: "2024-11-03",
-    tags: ["project", "maps", "Iceland"],
+    tags: ["project", "fun", "maps"],
     image: "reykjanes.png"
   },
   {
     slug: "social-connectedness",
     title: "#30DayMapChallenge2024 - Social Connectedness",
     date: "2024-11-08",
-    tags: ["project", "data vis"],
+    tags: ["project", "fun", "maps"],
     image: "hdx.gif"
   },
   {
@@ -141,6 +141,13 @@ const posts = [
     date: "2024-11-20",
     tags: ["project", "OSM", "maps"],
     image: "osm.gif"
+  },
+  {
+    slug: "roundabouts",
+    title: "#30DayMapChallenge2024 - Roundabouts of Iceland",
+    date: "2020-11-24",
+    tags: ["project", "fun", "maps"],
+    image: "roundabouts.png"
   },
   {
     slug: "flettan",
