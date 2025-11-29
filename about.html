@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Marco Pizzolato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-bar">
+    <div class="app-bar-inner">
+      <a href="index.html" class="logo">
+        <span class="material-icons logo-icon">explore</span>
+        <span class="logo-text">PROJ</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link nav-link-active">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span class="material-icons">menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="page-section">
+      <h1>About me</h1>
+
+      <div class="card" style="display:flex; flex-direction:column; gap:1.6rem;">
+        <!-- Avatar + name -->
+        <div style="display:flex; flex-direction:column; align-items:center; gap:0.75rem; text-align:center;">
+          <div style="
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.85);
+            box-shadow: 0 14px 32px rgba(0,0,0,0.85);
+          ">
+            <img src="img/marco.jpg" alt="Marco Pizzolato" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div>
+            <h2 style="margin:0 0 0.25rem;">Marco Pizzolato</h2>
+            <p style="margin:0; color:var(--text-muted); font-size:0.95rem;">
+              GIS &amp; remote sensing · Machine learning · Mountains &amp; maps
+            </p>
+          </div>
+        </div>
+
+        <!-- Content sections -->
+        <div style="display:flex; flex-direction:column; gap:1.4rem; line-height:1.7;">
+
+          <section style="margin:0; padding:0;">
+            <h3 style="margin:0 0 0.35rem; font-size:1.05rem;">Short version</h3>
+            <p style="margin:0.2rem 0 0.6rem;">
+              Some people say the world is mapped. I say it’s waiting to be explored.
+              Whether it’s trekking across the highlands, analysing satellite images, or
+              training machine learning models, I enjoy living at the intersection of
+              technology, nature, and adventure.
+            </p>
+          </section>
+
+          <section style="margin:0; padding:0;">
+            <h3 style="margin:0 0 0.35rem; font-size:1.05rem;">What I work on</h3>
+            <p style="margin:0.2rem 0 0.6rem;">
+              By day, I work as a GIS and remote sensing specialist, crafting maps,
+              analysing data, and making sense of the world through satellites.
+              By night (or whenever adventure calls), I’m an aspirant alpine trekking guide,
+              chasing the next challenge — whether it’s a mountain peak or a complex dataset.
+            </p>
+
+            <blockquote style="margin:0.8rem 0 0; font-style:italic; color:#ffffff;">
+              “There’s plenty of low-hanging fruit — but I’d rather climb higher for the best view.”
+            </blockquote>
+          </section>
+
+          <section style="margin:0; padding:0;">
+            <h3 style="margin:0 0 0.35rem; font-size:1.05rem;">Background</h3>
+            <p style="margin:0.2rem 0 0.6rem;">
+              I studied mechanical engineering and completed a master’s in materials &amp; process
+              engineering. Over time, my work drifted north — towards geospatial analysis,
+              environmental monitoring, and Earth observation.
+            </p>
+            <p style="margin:0.2rem 0 0.2rem;">
+              Today, I like to connect:
+            </p>
+            <ul style="margin:0.2rem 0 0.6rem 1.1rem; padding:0; list-style:disc;">
+              <li>science and technology</li>
+              <li>remote sensing and machine learning</li>
+              <li>environmental protection and real-world decision making</li>
+            </ul>
+          </section>
+
+          <section style="margin:0; padding:0;">
+            <h3 style="margin:0 0 0.35rem; font-size:1.05rem;">What I care about</h3>
+            <p style="margin:0.2rem 0 0.6rem;">
+              I’m passionate about environmental protection, sustainability, and using
+              data-driven tools to tackle real-world challenges. My mission is to explore,
+              learn, and share knowledge — whether that means:
+            </p>
+            <ul style="margin:0.2rem 0 0.6rem 1.1rem; padding:0; list-style:disc;">
+              <li>trekking in remote landscapes</li>
+              <li>developing new data-driven insights</li>
+              <li>helping others navigate their own paths</li>
+            </ul>
+            <p style="margin:0.2rem 0 0;">
+              If you’re into maps, AI, glaciers, or the best trekking routes in Iceland,
+              you’re in the right place.
+            </p>
+          </section>
+
+          <section style="margin:0; padding-top:0.3rem; border-top:1px solid rgba(55,65,81,0.7);">
+            <p class="contact-note" style="margin:0.6rem 0 0; font-size:0.85rem;">
+              Disclaimer: The views and opinions expressed on this website are my own and do not necessarily
+              reflect those of my employer or any affiliated organisations.
+            </p>
+          </section>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> marcop11</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

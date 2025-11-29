@@ -2,17 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Proj</title>
+  <title>Contact | Marco Pizzolato</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Google Fonts & Material Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Markdown parser -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
   <header class="app-bar">
@@ -22,9 +17,9 @@
         <span class="logo-text">PROJ</span>
       </a>
       <nav class="nav-links">
-        <a href="index.html" class="nav-link nav-link-active">Home</a>
+        <a href="index.html" class="nav-link">Home</a>
         <a href="about.html" class="nav-link">About</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="nav-link nav-link-active">Contact</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
         <span class="material-icons">menu</span>
@@ -33,20 +28,27 @@
   </header>
 
   <main class="page">
-    <section class="hero">
-      <div class="hero-text">
-        <h1>Projects</h1>
-        <p>
-          A digital collection of my projects, research and adventures. 
-        </p>
-      </div>
-    </section>
-
-    <!-- Single-column blog list with expandable cards -->
     <section class="page-section">
-      <h1>Posts</h1>
-      <div class="blog-list" id="blogList">
-        <!-- Cards injected by JS -->
+      <h1>Contact</h1>
+      <div class="card">
+        <p>
+          Have a question about maps, remote sensing, AI, or trekking in Iceland?
+          I’m always happy to connect.
+        </p>
+
+        <ul class="contact-list">
+
+
+          <li>
+            <span class="material-icons">github</span>
+            <span>
+              GitHub:
+              <a href="https://github.com/marcop11" target="_blank" rel="noopener">
+                github.com/marcop11
+              </a>
+            </span>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
